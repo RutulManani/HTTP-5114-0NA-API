@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weather API Integration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #weather-container {
+            margin-top: 20px;
+        }
+        #weather-icon {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        #temperature {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Current Weather</h1>
+    
+    <div id="weather-container">
+        <h2 id="location">Loading weather data...</h2>
+        <div id="temperature"></div>
+        <div id="conditions"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
