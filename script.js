@@ -1,5 +1,5 @@
 window.onload = function() {
-    // API configuration (using your original API key)
+    // API configuration
     var apiKey = "ef842d646433e02e92aa0a396a8a5e1d";
     var city = "Toronto";
     var units = "metric";
